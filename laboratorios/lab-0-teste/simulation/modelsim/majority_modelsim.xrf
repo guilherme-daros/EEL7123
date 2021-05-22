@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, D:/UFSC/Quarto Semestre/Topico Avançado em SD/Quartus/lab-teste/majority.vhd
+source_file = 1, d:/altera/15.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/altera/15.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/altera/15.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/altera/15.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, D:/UFSC/Quarto Semestre/Topico Avançado em SD/Quartus/lab-teste/db/majority.cbx.xml
+design_name = majority
+instance = comp, \Y~output\, Y~output, majority, 1
+instance = comp, \A~input\, A~input, majority, 1
+instance = comp, \C~input\, C~input, majority, 1
+instance = comp, \B~input\, B~input, majority, 1
+instance = comp, \Y~0\, Y~0, majority, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, majority, 1

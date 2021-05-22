@@ -1,0 +1,10 @@
+|majority
+A => D.IN0
+A => E.IN0
+B => D.IN1
+B => F.IN0
+C => E.IN1
+C => F.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

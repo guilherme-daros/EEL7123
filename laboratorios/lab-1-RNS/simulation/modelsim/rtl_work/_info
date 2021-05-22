@@ -1,0 +1,283 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/simulation/modelsim
+Ecpa_mod15
+Z1 w1613775344
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/CPA_mod15.vhd
+Z5 FD:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/CPA_mod15.vhd
+l0
+L10
+V^mbbg@c1GlO_@l>FT1bX@0
+!s100 9`i05b=[T8LoX=40_]BPP1
+Z6 OV;C;10.3d;59
+31
+Z7 !s110 1614739199
+!i10b 1
+Z8 !s108 1614739199.943000
+Z9 !s90 -reportprogress|300|-93|-work|work|D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/CPA_mod15.vhd|
+Z10 !s107 D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/CPA_mod15.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1
+Astructural
+R2
+R3
+DEx4 work 9 cpa_mod15 0 22 ^mbbg@c1GlO_@l>FT1bX@0
+l45
+L19
+VRRGYOG>@>_m_bbSL>I]en3
+!s100 Rf9edizegfz6]VciXXoLf2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ecpa_mod17
+Z13 w1613775628
+R2
+R3
+R0
+Z14 8D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/CPA_mod17.vhd
+Z15 FD:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/CPA_mod17.vhd
+l0
+L10
+VHD:f8f]F789]>^@C7]A8<3
+!s100 `[42=4Gol6]RHTMShgmNl3
+R6
+31
+R7
+!i10b 1
+Z16 !s108 1614739198.979000
+Z17 !s90 -reportprogress|300|-93|-work|work|D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/CPA_mod17.vhd|
+Z18 !s107 D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/CPA_mod17.vhd|
+!i113 1
+R11
+R12
+Astructural
+R2
+R3
+DEx4 work 9 cpa_mod17 0 22 HD:f8f]F789]>^@C7]A8<3
+l45
+L19
+VMo[5YJLc;o]O9RREGRV5n2
+!s100 NRlmAJ`oj]3TUB4n^9J8]0
+R6
+31
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Ecsa_eac
+Z19 w1614709758
+R2
+R3
+R0
+Z20 8D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/CSA_EAC.vhd
+Z21 FD:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/CSA_EAC.vhd
+l0
+L4
+VXTE^A6O;M5L4B:E0zT^cC2
+!s100 26goMWSV:TSEZ62`LfQhn3
+R6
+31
+Z22 !s110 1614739198
+!i10b 1
+Z23 !s108 1614739198.067000
+Z24 !s90 -reportprogress|300|-93|-work|work|D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/CSA_EAC.vhd|
+Z25 !s107 D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/CSA_EAC.vhd|
+!i113 1
+R11
+R12
+Astructural
+R2
+R3
+DEx4 work 7 csa_eac 0 22 XTE^A6O;M5L4B:E0zT^cC2
+l24
+L13
+Va:9?YzfNX4khjbi7RZU5>2
+!s100 eYGTIHSNdXEjmH[5mV02B1
+R6
+31
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R11
+R12
+Ecsa_ieac
+Z26 w1614709105
+R2
+R3
+R0
+Z27 8D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/CSA_IEAC.vhd
+Z28 FD:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/CSA_IEAC.vhd
+l0
+L4
+V>HRYB90eNZ3eVk_:<YR4I3
+!s100 h>h]2W2bm_KVB:d`LH4J_1
+R6
+31
+Z29 !s110 1614739197
+!i10b 1
+Z30 !s108 1614739197.101000
+Z31 !s90 -reportprogress|300|-93|-work|work|D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/CSA_IEAC.vhd|
+Z32 !s107 D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/CSA_IEAC.vhd|
+!i113 1
+R11
+R12
+Astructural
+R2
+R3
+DEx4 work 8 csa_ieac 0 22 >HRYB90eNZ3eVk_:<YR4I3
+l24
+L13
+VVfEM`@fTaaOneMG=H:b>51
+!s100 ?]M6B5XMD4;=Mn?lz<4>Q2
+R6
+31
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R11
+R12
+Efulladder
+Z33 w1613006854
+R2
+R3
+R0
+Z34 8D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/fulladder.vhd
+Z35 FD:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/fulladder.vhd
+l0
+L4
+V0@CL[Z9C2gTccP[cz2EOa0
+!s100 4AS4^m_SKOz@BQ80:2MhP3
+R6
+31
+Z36 !s110 1614739196
+!i10b 1
+Z37 !s108 1614739196.130000
+Z38 !s90 -reportprogress|300|-93|-work|work|D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/fulladder.vhd|
+Z39 !s107 D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/fulladder.vhd|
+!i113 1
+R11
+R12
+Astructural
+R2
+R3
+DEx4 work 9 fulladder 0 22 0@CL[Z9C2gTccP[cz2EOa0
+l16
+L14
+V]8VfdUMlk6`Vb<98KKDC31
+!s100 :3XgOjjaYnX<QTgGfW^Am2
+R6
+31
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 1
+R11
+R12
+Emux2_1
+Z40 w1613774152
+R2
+R3
+R0
+Z41 8D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/Mux2_1.vhd
+Z42 FD:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/Mux2_1.vhd
+l0
+L4
+VfNlQg>dg70]GnRIbNiSa?1
+!s100 0HB[kMOXR<jj^G`ZZaXn22
+R6
+31
+Z43 !s110 1614739194
+!i10b 1
+Z44 !s108 1614739194.895000
+Z45 !s90 -reportprogress|300|-93|-work|work|D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/Mux2_1.vhd|
+Z46 !s107 D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/Mux2_1.vhd|
+!i113 1
+R11
+R12
+Amux
+R2
+R3
+DEx4 work 6 mux2_1 0 22 fNlQg>dg70]GnRIbNiSa?1
+l14
+L12
+V4SHAf19m9?1dE[MMP5=Zh2
+!s100 dXz_a<OjkWACW1W9=Yg1U3
+R6
+31
+R43
+!i10b 1
+R44
+R45
+R46
+!i113 1
+R11
+R12
+Etraditionalsystem_bintorns
+Z47 w1614738277
+R2
+R3
+R0
+Z48 8D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/traditionalSystem_BinToRNS.vhd
+Z49 FD:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/traditionalSystem_BinToRNS.vhd
+l0
+L13
+V1T:3Fz9m2Y1II<0;@eXDS0
+!s100 =_gBF`Ca6Ql@lE9m2mC8A2
+R6
+31
+Z50 !s110 1614739193
+!i10b 1
+Z51 !s108 1614739193.838000
+Z52 !s90 -reportprogress|300|-93|-work|work|D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/traditionalSystem_BinToRNS.vhd|
+Z53 !s107 D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-1-RNS/traditionalSystem_BinToRNS.vhd|
+!i113 1
+R11
+R12
+Astructural
+R2
+R3
+DEx4 work 26 traditionalsystem_bintorns 0 22 1T:3Fz9m2Y1II<0;@eXDS0
+l70
+L20
+VMFjZE^9O2V5>BJO1FYnfF3
+!s100 kSZWFjMYYNlUVGNQRMlIZ2
+R6
+31
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R11
+R12

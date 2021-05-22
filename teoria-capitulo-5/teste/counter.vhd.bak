@@ -1,0 +1,10 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity counter is
+	port(IN1, IN2 in std_logic_vector (7 downto 0);
+			Cin in std_logic;
+			S out std_logic_vector (7 downto 0);
+			Cout out std_logic;
+			);
+		

@@ -1,0 +1,22 @@
+Tue Mar 02 18:46:17 ART 2021
+Trace back: can't read "_clients()": no such variable
+    while executing
+"set _currObj    $_clients($cid)"
+    (object "::.bookmarkmgr" method "::vsimwidgets::bookmarkmgr::_setcurrent" body line 11)
+    invoked from within
+"_setcurrent $cid"
+    (object "::.bookmarkmgr" method "::vsimwidgets::bookmarkmgr::_menu_prepost" body line 16)
+    invoked from within
+"::.bookmarkmgr _menu_prepost .mBar.bookmarks 1 {} 1"
+    (in namespace inscope "::vsimwidgets::bookmarkmgr" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::bookmarkmgr {::.bookmarkmgr _menu_prepost .mBar.bookmarks 1 {} 1}"
+    ("eval" body line 1)
+    invoked from within
+"eval $post_cmd"
+    (procedure "::Vsimmenu::DefaultMenuPostCmd" line 41)
+    invoked from within
+"::Vsimmenu::DefaultMenuPostCmd .mBar.bookmarks {namespace inscope ::vsimwidgets::bookmarkmgr {::.bookmarkmgr _menu_prepost .mBar.bookmarks 1 {} 1}} Se..."
+    (menu preprocess)
+  <2:D:/altera/15.0/modelsim_ase/win32aloem/tk8.5/bgerror.tcl:92: ::tkerror {can't read "_clients()": no such variable}
+  <1:eval:1: ::tk::dialog::error::bgerror {can't read "_clients()": no such variable}

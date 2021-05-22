@@ -1,0 +1,94 @@
+# Reading D:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# do lab-2-rns_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying D:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-2-RNS/traditionalSystem_RNStoBin.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:18:11 on Mar 03,2021
+# vcom -reportprogress 300 -93 -work work D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-2-RNS/traditionalSystem_RNStoBin.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity traditionalSystem_RNStoBin
+# -- Compiling architecture Structural of traditionalSystem_RNStoBin
+# End time: 16:18:12 on Mar 03,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-2-RNS/Mux2_1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:18:12 on Mar 03,2021
+# vcom -reportprogress 300 -93 -work work D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-2-RNS/Mux2_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux2_1
+# -- Compiling architecture Mux of Mux2_1
+# End time: 16:18:13 on Mar 03,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-2-RNS/fulladder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:18:13 on Mar 03,2021
+# vcom -reportprogress 300 -93 -work work D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-2-RNS/fulladder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fulladder
+# -- Compiling architecture structural of fulladder
+# End time: 16:18:14 on Mar 03,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-2-RNS/CSA_EAC.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:18:14 on Mar 03,2021
+# vcom -reportprogress 300 -93 -work work D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-2-RNS/CSA_EAC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CSA_EAC
+# -- Compiling architecture Structural of CSA_EAC
+# End time: 16:18:15 on Mar 03,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-2-RNS/CPA_mod255.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:18:15 on Mar 03,2021
+# vcom -reportprogress 300 -93 -work work D:/UFSC/quarto-semestre/eel7123-topico-avancado-em-sistemas-digitais/laboratorios/lab-2-RNS/CPA_mod255.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CPA_mod255
+# -- Compiling architecture structural of CPA_mod255
+# End time: 16:18:16 on Mar 03,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vsim work.traditionalsystem_rnstobin
+# vsim -gui "+altera" -l msim_transcript -do "lab-2-rns_run_msim_rtl_vhdl.do" 
+# Start time: 16:18:44 on Mar 03,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.traditionalsystem_rnstobin(structural)
+# Loading work.csa_eac(structural)
+# Loading work.fulladder(structural)
+# Loading work.cpa_mod255(structural)
+# Loading work.mux2_1(mux)
+add wave -position insertpoint  \
+sim:/traditionalsystem_rnstobin/SW \
+sim:/traditionalsystem_rnstobin/LEDR
+force -freeze sim:/traditionalsystem_rnstobin/SW 000000000000000000 0
+run
+force -freeze sim:/traditionalsystem_rnstobin/SW 000001000111111111 0
+run
+force -freeze sim:/traditionalsystem_rnstobin/SW 000000000011111100 0
+run
+force -freeze sim:/traditionalsystem_rnstobin/SW 010000110011111111 0
+run
+# End time: 16:29:46 on Mar 03,2021, Elapsed time: 0:11:02
+# Errors: 0, Warnings: 0

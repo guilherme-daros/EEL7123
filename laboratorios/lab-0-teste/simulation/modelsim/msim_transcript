@@ -1,0 +1,32 @@
+# Reading D:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# do majority_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying D:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {D:/UFSC/Quarto Semestre/Topico Avançado em SD/Quartus/lab-teste/majority.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 12:35:57 on Mar 01,2021
+# vcom -reportprogress 300 -93 -work work D:/UFSC/Quarto Semestre/Topico Avançado em SD/Quartus/lab-teste/majority.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open D:/UFSC/Quarto Semestre/Topico Avançado em SD/Quartus/lab-teste/simulation/modelsim/rtl_work/_lib.qdb): unable to open database file
+# mtilibWrite(): Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "D:/UFSC/Quarto Semestre/Topico Avançado em SD/Quartus/lab-teste/simulation/modelsim/rtl_work/_temp/vcom33ngmv".
+# 
+# O sistema não pode encontrar o caminho especificado. (GetLastError() = 3)
+# ** Error: D:/UFSC/Quarto Semestre/Topico Avançado em SD/Quartus/lab-teste/majority.vhd(1): VHDL Compiler exiting
+# End time: 12:35:57 on Mar 01,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: D:/altera/15.0/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./majority_run_msim_rtl_vhdl.do line 8
+# D:/altera/15.0/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {D:/UFSC/Quarto Semestre/Topico Avançado em SD/Quartus/lab-teste/majority.vhd}"

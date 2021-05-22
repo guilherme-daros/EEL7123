@@ -1,0 +1,1658 @@
+|main
+SW[0] => CSA:CSA4.I2[3]
+SW[0] => CSA:CSA4.I2[0]
+SW[1] => CSA:CSA4.I2[4]
+SW[1] => CSA:CSA4.I2[1]
+SW[2] => CSA:CSA4.I2[5]
+SW[2] => CSA:CSA4.I2[2]
+SW[3] => CSA:CSA1.I2[3]
+SW[3] => CSA:CSA4.I2[6]
+SW[4] => CSA:CSA2.I1[1]
+SW[4] => CSA:CSA4.I1[3]
+SW[4] => CSA:CSA4.I1[0]
+SW[5] => CSA:CSA2.I1[2]
+SW[5] => CSA:CSA4.I1[4]
+SW[5] => CSA:CSA4.I1[1]
+SW[6] => CSA:CSA2.I1[3]
+SW[6] => CSA:CSA4.I1[5]
+SW[6] => CSA:CSA4.I1[2]
+SW[7] => CSA:CSA1.I1[3]
+SW[7] => CSA:CSA2.I1[4]
+SW[7] => CSA:CSA4.I1[6]
+SW[8] => CSA:CSA2.I1[5]
+SW[8] => CSA:CSA2.I2[3]
+SW[8] => CSA:CSA2.I2[0]
+SW[9] => CSA:CSA2.I1[6]
+SW[9] => CSA:CSA2.I2[4]
+SW[9] => CSA:CSA2.I2[1]
+SW[10] => CSA:CSA2.I1[7]
+SW[10] => CSA:CSA2.I2[5]
+SW[10] => CSA:CSA2.I2[2]
+SW[11] => CSA:CSA1.I1[2]
+SW[11] => CSA:CSA1.I2[2]
+SW[11] => CSA:CSA2.I1[8]
+SW[11] => CSA:CSA2.I2[6]
+SW[12] => CSA:CSA2.I0[3]
+SW[12] => CSA:CSA2.I0[0]
+SW[12] => CSA:CSA4.I2[7]
+SW[13] => CSA:CSA1.I2[1]
+SW[13] => CSA:CSA2.I0[4]
+SW[13] => CSA:CSA4.I2[8]
+SW[14] => CSA:CSA1.I1[1]
+SW[14] => CSA:CSA2.I0[5]
+SW[14] => CSA:CSA2.I0[1]
+SW[14] => CSA:CSA4.I2[9]
+SW[15] => CSA:CSA1.I0[2]
+SW[15] => CSA:CSA2.I0[6]
+SW[15] => CSA:CSA2.I0[2]
+SW[15] => CSA:CSA4.I2[10]
+SW[16] => ~NO_FANOUT~
+SW[17] => ~NO_FANOUT~
+LEDR[0] <= <VCC>
+LEDR[1] <= <VCC>
+LEDR[2] <= CPA:CPA1.Saida[0]
+LEDR[3] <= CPA:CPA1.Saida[1]
+LEDR[4] <= CPA:CPA1.Saida[2]
+LEDR[5] <= CPA:CPA1.Saida[3]
+LEDR[6] <= CPA:CPA1.Saida[4]
+LEDR[7] <= CPA:CPA1.Saida[5]
+LEDR[8] <= CPA:CPA1.Saida[6]
+LEDR[9] <= CPA:CPA1.Saida[7]
+LEDR[10] <= CPA:CPA1.Saida[8]
+LEDR[11] <= CPA:CPA1.Saida[9]
+LEDR[12] <= CPA:CPA1.Saida[10]
+LEDR[13] <= CPA:CPA1.Saida[11]
+LEDR[14] <= CPA:CPA1.Saida[12]
+LEDR[15] <= CPA:CPA1.Saida[13]
+LEDR[16] <= CPA:CPA1.Saida[14]
+LEDR[17] <= CPA:CPA1.Saida[15]
+
+
+|main|CSA:CSA1
+I0[0] => fulladder:CSA_g:0:CSA_j.A
+I0[1] => fulladder:CSA_g:1:CSA_j.A
+I0[2] => fulladder:CSA_g:2:CSA_j.A
+I0[3] => fulladder:CSA_g:3:CSA_j.A
+I0[4] => fulladder:CSA_g:4:CSA_j.A
+I0[5] => fulladder:CSA_g:5:CSA_j.A
+I0[6] => fulladder:CSA_g:6:CSA_j.A
+I0[7] => fulladder:CSA_g:7:CSA_j.A
+I0[8] => fulladder:CSA_g:8:CSA_j.A
+I0[9] => fulladder:CSA_g:9:CSA_j.A
+I0[10] => fulladder:CSA_g:10:CSA_j.A
+I1[0] => fulladder:CSA_g:0:CSA_j.B
+I1[1] => fulladder:CSA_g:1:CSA_j.B
+I1[2] => fulladder:CSA_g:2:CSA_j.B
+I1[3] => fulladder:CSA_g:3:CSA_j.B
+I1[4] => fulladder:CSA_g:4:CSA_j.B
+I1[5] => fulladder:CSA_g:5:CSA_j.B
+I1[6] => fulladder:CSA_g:6:CSA_j.B
+I1[7] => fulladder:CSA_g:7:CSA_j.B
+I1[8] => fulladder:CSA_g:8:CSA_j.B
+I1[9] => fulladder:CSA_g:9:CSA_j.B
+I1[10] => fulladder:CSA_g:10:CSA_j.B
+I2[0] => fulladder:CSA_g:0:CSA_j.Cin
+I2[1] => fulladder:CSA_g:1:CSA_j.Cin
+I2[2] => fulladder:CSA_g:2:CSA_j.Cin
+I2[3] => fulladder:CSA_g:3:CSA_j.Cin
+I2[4] => fulladder:CSA_g:4:CSA_j.Cin
+I2[5] => fulladder:CSA_g:5:CSA_j.Cin
+I2[6] => fulladder:CSA_g:6:CSA_j.Cin
+I2[7] => fulladder:CSA_g:7:CSA_j.Cin
+I2[8] => fulladder:CSA_g:8:CSA_j.Cin
+I2[9] => fulladder:CSA_g:9:CSA_j.Cin
+I2[10] => fulladder:CSA_g:10:CSA_j.Cin
+S_outs[0] <= fulladder:CSA_g:0:CSA_j.S
+S_outs[1] <= fulladder:CSA_g:1:CSA_j.S
+S_outs[2] <= fulladder:CSA_g:2:CSA_j.S
+S_outs[3] <= fulladder:CSA_g:3:CSA_j.S
+S_outs[4] <= fulladder:CSA_g:4:CSA_j.S
+S_outs[5] <= fulladder:CSA_g:5:CSA_j.S
+S_outs[6] <= fulladder:CSA_g:6:CSA_j.S
+S_outs[7] <= fulladder:CSA_g:7:CSA_j.S
+S_outs[8] <= fulladder:CSA_g:8:CSA_j.S
+S_outs[9] <= fulladder:CSA_g:9:CSA_j.S
+S_outs[10] <= fulladder:CSA_g:10:CSA_j.S
+S_outs[11] <= <GND>
+C_outs[0] <= <GND>
+C_outs[1] <= fulladder:CSA_g:0:CSA_j.Cout
+C_outs[2] <= fulladder:CSA_g:1:CSA_j.Cout
+C_outs[3] <= fulladder:CSA_g:2:CSA_j.Cout
+C_outs[4] <= fulladder:CSA_g:3:CSA_j.Cout
+C_outs[5] <= fulladder:CSA_g:4:CSA_j.Cout
+C_outs[6] <= fulladder:CSA_g:5:CSA_j.Cout
+C_outs[7] <= fulladder:CSA_g:6:CSA_j.Cout
+C_outs[8] <= fulladder:CSA_g:7:CSA_j.Cout
+C_outs[9] <= fulladder:CSA_g:8:CSA_j.Cout
+C_outs[10] <= fulladder:CSA_g:9:CSA_j.Cout
+C_outs[11] <= fulladder:CSA_g:10:CSA_j.Cout
+
+
+|main|CSA:CSA1|fulladder:\CSA_g:0:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA1|fulladder:\CSA_g:1:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA1|fulladder:\CSA_g:2:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA1|fulladder:\CSA_g:3:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA1|fulladder:\CSA_g:4:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA1|fulladder:\CSA_g:5:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA1|fulladder:\CSA_g:6:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA1|fulladder:\CSA_g:7:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA1|fulladder:\CSA_g:8:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA1|fulladder:\CSA_g:9:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA1|fulladder:\CSA_g:10:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA2
+I0[0] => fulladder:CSA_g:0:CSA_j.A
+I0[1] => fulladder:CSA_g:1:CSA_j.A
+I0[2] => fulladder:CSA_g:2:CSA_j.A
+I0[3] => fulladder:CSA_g:3:CSA_j.A
+I0[4] => fulladder:CSA_g:4:CSA_j.A
+I0[5] => fulladder:CSA_g:5:CSA_j.A
+I0[6] => fulladder:CSA_g:6:CSA_j.A
+I0[7] => fulladder:CSA_g:7:CSA_j.A
+I0[8] => fulladder:CSA_g:8:CSA_j.A
+I0[9] => fulladder:CSA_g:9:CSA_j.A
+I0[10] => fulladder:CSA_g:10:CSA_j.A
+I1[0] => fulladder:CSA_g:0:CSA_j.B
+I1[1] => fulladder:CSA_g:1:CSA_j.B
+I1[2] => fulladder:CSA_g:2:CSA_j.B
+I1[3] => fulladder:CSA_g:3:CSA_j.B
+I1[4] => fulladder:CSA_g:4:CSA_j.B
+I1[5] => fulladder:CSA_g:5:CSA_j.B
+I1[6] => fulladder:CSA_g:6:CSA_j.B
+I1[7] => fulladder:CSA_g:7:CSA_j.B
+I1[8] => fulladder:CSA_g:8:CSA_j.B
+I1[9] => fulladder:CSA_g:9:CSA_j.B
+I1[10] => fulladder:CSA_g:10:CSA_j.B
+I2[0] => fulladder:CSA_g:0:CSA_j.Cin
+I2[1] => fulladder:CSA_g:1:CSA_j.Cin
+I2[2] => fulladder:CSA_g:2:CSA_j.Cin
+I2[3] => fulladder:CSA_g:3:CSA_j.Cin
+I2[4] => fulladder:CSA_g:4:CSA_j.Cin
+I2[5] => fulladder:CSA_g:5:CSA_j.Cin
+I2[6] => fulladder:CSA_g:6:CSA_j.Cin
+I2[7] => fulladder:CSA_g:7:CSA_j.Cin
+I2[8] => fulladder:CSA_g:8:CSA_j.Cin
+I2[9] => fulladder:CSA_g:9:CSA_j.Cin
+I2[10] => fulladder:CSA_g:10:CSA_j.Cin
+S_outs[0] <= fulladder:CSA_g:0:CSA_j.S
+S_outs[1] <= fulladder:CSA_g:1:CSA_j.S
+S_outs[2] <= fulladder:CSA_g:2:CSA_j.S
+S_outs[3] <= fulladder:CSA_g:3:CSA_j.S
+S_outs[4] <= fulladder:CSA_g:4:CSA_j.S
+S_outs[5] <= fulladder:CSA_g:5:CSA_j.S
+S_outs[6] <= fulladder:CSA_g:6:CSA_j.S
+S_outs[7] <= fulladder:CSA_g:7:CSA_j.S
+S_outs[8] <= fulladder:CSA_g:8:CSA_j.S
+S_outs[9] <= fulladder:CSA_g:9:CSA_j.S
+S_outs[10] <= fulladder:CSA_g:10:CSA_j.S
+S_outs[11] <= <GND>
+C_outs[0] <= <GND>
+C_outs[1] <= fulladder:CSA_g:0:CSA_j.Cout
+C_outs[2] <= fulladder:CSA_g:1:CSA_j.Cout
+C_outs[3] <= fulladder:CSA_g:2:CSA_j.Cout
+C_outs[4] <= fulladder:CSA_g:3:CSA_j.Cout
+C_outs[5] <= fulladder:CSA_g:4:CSA_j.Cout
+C_outs[6] <= fulladder:CSA_g:5:CSA_j.Cout
+C_outs[7] <= fulladder:CSA_g:6:CSA_j.Cout
+C_outs[8] <= fulladder:CSA_g:7:CSA_j.Cout
+C_outs[9] <= fulladder:CSA_g:8:CSA_j.Cout
+C_outs[10] <= fulladder:CSA_g:9:CSA_j.Cout
+C_outs[11] <= fulladder:CSA_g:10:CSA_j.Cout
+
+
+|main|CSA:CSA2|fulladder:\CSA_g:0:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA2|fulladder:\CSA_g:1:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA2|fulladder:\CSA_g:2:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA2|fulladder:\CSA_g:3:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA2|fulladder:\CSA_g:4:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA2|fulladder:\CSA_g:5:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA2|fulladder:\CSA_g:6:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA2|fulladder:\CSA_g:7:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA2|fulladder:\CSA_g:8:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA2|fulladder:\CSA_g:9:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA2|fulladder:\CSA_g:10:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA3
+I0[0] => fulladder:CSA_g:0:CSA_j.A
+I0[1] => fulladder:CSA_g:1:CSA_j.A
+I0[2] => fulladder:CSA_g:2:CSA_j.A
+I0[3] => fulladder:CSA_g:3:CSA_j.A
+I0[4] => fulladder:CSA_g:4:CSA_j.A
+I0[5] => fulladder:CSA_g:5:CSA_j.A
+I0[6] => fulladder:CSA_g:6:CSA_j.A
+I0[7] => fulladder:CSA_g:7:CSA_j.A
+I0[8] => fulladder:CSA_g:8:CSA_j.A
+I0[9] => fulladder:CSA_g:9:CSA_j.A
+I0[10] => fulladder:CSA_g:10:CSA_j.A
+I0[11] => fulladder:CSA_g:11:CSA_j.A
+I1[0] => fulladder:CSA_g:0:CSA_j.B
+I1[1] => fulladder:CSA_g:1:CSA_j.B
+I1[2] => fulladder:CSA_g:2:CSA_j.B
+I1[3] => fulladder:CSA_g:3:CSA_j.B
+I1[4] => fulladder:CSA_g:4:CSA_j.B
+I1[5] => fulladder:CSA_g:5:CSA_j.B
+I1[6] => fulladder:CSA_g:6:CSA_j.B
+I1[7] => fulladder:CSA_g:7:CSA_j.B
+I1[8] => fulladder:CSA_g:8:CSA_j.B
+I1[9] => fulladder:CSA_g:9:CSA_j.B
+I1[10] => fulladder:CSA_g:10:CSA_j.B
+I1[11] => fulladder:CSA_g:11:CSA_j.B
+I2[0] => fulladder:CSA_g:0:CSA_j.Cin
+I2[1] => fulladder:CSA_g:1:CSA_j.Cin
+I2[2] => fulladder:CSA_g:2:CSA_j.Cin
+I2[3] => fulladder:CSA_g:3:CSA_j.Cin
+I2[4] => fulladder:CSA_g:4:CSA_j.Cin
+I2[5] => fulladder:CSA_g:5:CSA_j.Cin
+I2[6] => fulladder:CSA_g:6:CSA_j.Cin
+I2[7] => fulladder:CSA_g:7:CSA_j.Cin
+I2[8] => fulladder:CSA_g:8:CSA_j.Cin
+I2[9] => fulladder:CSA_g:9:CSA_j.Cin
+I2[10] => fulladder:CSA_g:10:CSA_j.Cin
+I2[11] => fulladder:CSA_g:11:CSA_j.Cin
+S_outs[0] <= fulladder:CSA_g:0:CSA_j.S
+S_outs[1] <= fulladder:CSA_g:1:CSA_j.S
+S_outs[2] <= fulladder:CSA_g:2:CSA_j.S
+S_outs[3] <= fulladder:CSA_g:3:CSA_j.S
+S_outs[4] <= fulladder:CSA_g:4:CSA_j.S
+S_outs[5] <= fulladder:CSA_g:5:CSA_j.S
+S_outs[6] <= fulladder:CSA_g:6:CSA_j.S
+S_outs[7] <= fulladder:CSA_g:7:CSA_j.S
+S_outs[8] <= fulladder:CSA_g:8:CSA_j.S
+S_outs[9] <= fulladder:CSA_g:9:CSA_j.S
+S_outs[10] <= fulladder:CSA_g:10:CSA_j.S
+S_outs[11] <= fulladder:CSA_g:11:CSA_j.S
+S_outs[12] <= <GND>
+C_outs[0] <= <GND>
+C_outs[1] <= fulladder:CSA_g:0:CSA_j.Cout
+C_outs[2] <= fulladder:CSA_g:1:CSA_j.Cout
+C_outs[3] <= fulladder:CSA_g:2:CSA_j.Cout
+C_outs[4] <= fulladder:CSA_g:3:CSA_j.Cout
+C_outs[5] <= fulladder:CSA_g:4:CSA_j.Cout
+C_outs[6] <= fulladder:CSA_g:5:CSA_j.Cout
+C_outs[7] <= fulladder:CSA_g:6:CSA_j.Cout
+C_outs[8] <= fulladder:CSA_g:7:CSA_j.Cout
+C_outs[9] <= fulladder:CSA_g:8:CSA_j.Cout
+C_outs[10] <= fulladder:CSA_g:9:CSA_j.Cout
+C_outs[11] <= fulladder:CSA_g:10:CSA_j.Cout
+C_outs[12] <= fulladder:CSA_g:11:CSA_j.Cout
+
+
+|main|CSA:CSA3|fulladder:\CSA_g:0:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA3|fulladder:\CSA_g:1:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA3|fulladder:\CSA_g:2:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA3|fulladder:\CSA_g:3:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA3|fulladder:\CSA_g:4:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA3|fulladder:\CSA_g:5:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA3|fulladder:\CSA_g:6:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA3|fulladder:\CSA_g:7:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA3|fulladder:\CSA_g:8:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA3|fulladder:\CSA_g:9:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA3|fulladder:\CSA_g:10:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA3|fulladder:\CSA_g:11:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA4
+I0[0] => fulladder:CSA_g:0:CSA_j.A
+I0[1] => fulladder:CSA_g:1:CSA_j.A
+I0[2] => fulladder:CSA_g:2:CSA_j.A
+I0[3] => fulladder:CSA_g:3:CSA_j.A
+I0[4] => fulladder:CSA_g:4:CSA_j.A
+I0[5] => fulladder:CSA_g:5:CSA_j.A
+I0[6] => fulladder:CSA_g:6:CSA_j.A
+I0[7] => fulladder:CSA_g:7:CSA_j.A
+I0[8] => fulladder:CSA_g:8:CSA_j.A
+I0[9] => fulladder:CSA_g:9:CSA_j.A
+I0[10] => fulladder:CSA_g:10:CSA_j.A
+I0[11] => fulladder:CSA_g:11:CSA_j.A
+I1[0] => fulladder:CSA_g:0:CSA_j.B
+I1[1] => fulladder:CSA_g:1:CSA_j.B
+I1[2] => fulladder:CSA_g:2:CSA_j.B
+I1[3] => fulladder:CSA_g:3:CSA_j.B
+I1[4] => fulladder:CSA_g:4:CSA_j.B
+I1[5] => fulladder:CSA_g:5:CSA_j.B
+I1[6] => fulladder:CSA_g:6:CSA_j.B
+I1[7] => fulladder:CSA_g:7:CSA_j.B
+I1[8] => fulladder:CSA_g:8:CSA_j.B
+I1[9] => fulladder:CSA_g:9:CSA_j.B
+I1[10] => fulladder:CSA_g:10:CSA_j.B
+I1[11] => fulladder:CSA_g:11:CSA_j.B
+I2[0] => fulladder:CSA_g:0:CSA_j.Cin
+I2[1] => fulladder:CSA_g:1:CSA_j.Cin
+I2[2] => fulladder:CSA_g:2:CSA_j.Cin
+I2[3] => fulladder:CSA_g:3:CSA_j.Cin
+I2[4] => fulladder:CSA_g:4:CSA_j.Cin
+I2[5] => fulladder:CSA_g:5:CSA_j.Cin
+I2[6] => fulladder:CSA_g:6:CSA_j.Cin
+I2[7] => fulladder:CSA_g:7:CSA_j.Cin
+I2[8] => fulladder:CSA_g:8:CSA_j.Cin
+I2[9] => fulladder:CSA_g:9:CSA_j.Cin
+I2[10] => fulladder:CSA_g:10:CSA_j.Cin
+I2[11] => fulladder:CSA_g:11:CSA_j.Cin
+S_outs[0] <= fulladder:CSA_g:0:CSA_j.S
+S_outs[1] <= fulladder:CSA_g:1:CSA_j.S
+S_outs[2] <= fulladder:CSA_g:2:CSA_j.S
+S_outs[3] <= fulladder:CSA_g:3:CSA_j.S
+S_outs[4] <= fulladder:CSA_g:4:CSA_j.S
+S_outs[5] <= fulladder:CSA_g:5:CSA_j.S
+S_outs[6] <= fulladder:CSA_g:6:CSA_j.S
+S_outs[7] <= fulladder:CSA_g:7:CSA_j.S
+S_outs[8] <= fulladder:CSA_g:8:CSA_j.S
+S_outs[9] <= fulladder:CSA_g:9:CSA_j.S
+S_outs[10] <= fulladder:CSA_g:10:CSA_j.S
+S_outs[11] <= fulladder:CSA_g:11:CSA_j.S
+S_outs[12] <= <GND>
+C_outs[0] <= <GND>
+C_outs[1] <= fulladder:CSA_g:0:CSA_j.Cout
+C_outs[2] <= fulladder:CSA_g:1:CSA_j.Cout
+C_outs[3] <= fulladder:CSA_g:2:CSA_j.Cout
+C_outs[4] <= fulladder:CSA_g:3:CSA_j.Cout
+C_outs[5] <= fulladder:CSA_g:4:CSA_j.Cout
+C_outs[6] <= fulladder:CSA_g:5:CSA_j.Cout
+C_outs[7] <= fulladder:CSA_g:6:CSA_j.Cout
+C_outs[8] <= fulladder:CSA_g:7:CSA_j.Cout
+C_outs[9] <= fulladder:CSA_g:8:CSA_j.Cout
+C_outs[10] <= fulladder:CSA_g:9:CSA_j.Cout
+C_outs[11] <= fulladder:CSA_g:10:CSA_j.Cout
+C_outs[12] <= fulladder:CSA_g:11:CSA_j.Cout
+
+
+|main|CSA:CSA4|fulladder:\CSA_g:0:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA4|fulladder:\CSA_g:1:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA4|fulladder:\CSA_g:2:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA4|fulladder:\CSA_g:3:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA4|fulladder:\CSA_g:4:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA4|fulladder:\CSA_g:5:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA4|fulladder:\CSA_g:6:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA4|fulladder:\CSA_g:7:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA4|fulladder:\CSA_g:8:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA4|fulladder:\CSA_g:9:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA4|fulladder:\CSA_g:10:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA4|fulladder:\CSA_g:11:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA5
+I0[0] => fulladder:CSA_g:0:CSA_j.A
+I0[1] => fulladder:CSA_g:1:CSA_j.A
+I0[2] => fulladder:CSA_g:2:CSA_j.A
+I0[3] => fulladder:CSA_g:3:CSA_j.A
+I0[4] => fulladder:CSA_g:4:CSA_j.A
+I0[5] => fulladder:CSA_g:5:CSA_j.A
+I0[6] => fulladder:CSA_g:6:CSA_j.A
+I0[7] => fulladder:CSA_g:7:CSA_j.A
+I0[8] => fulladder:CSA_g:8:CSA_j.A
+I0[9] => fulladder:CSA_g:9:CSA_j.A
+I0[10] => fulladder:CSA_g:10:CSA_j.A
+I0[11] => fulladder:CSA_g:11:CSA_j.A
+I0[12] => fulladder:CSA_g:12:CSA_j.A
+I1[0] => fulladder:CSA_g:0:CSA_j.B
+I1[1] => fulladder:CSA_g:1:CSA_j.B
+I1[2] => fulladder:CSA_g:2:CSA_j.B
+I1[3] => fulladder:CSA_g:3:CSA_j.B
+I1[4] => fulladder:CSA_g:4:CSA_j.B
+I1[5] => fulladder:CSA_g:5:CSA_j.B
+I1[6] => fulladder:CSA_g:6:CSA_j.B
+I1[7] => fulladder:CSA_g:7:CSA_j.B
+I1[8] => fulladder:CSA_g:8:CSA_j.B
+I1[9] => fulladder:CSA_g:9:CSA_j.B
+I1[10] => fulladder:CSA_g:10:CSA_j.B
+I1[11] => fulladder:CSA_g:11:CSA_j.B
+I1[12] => fulladder:CSA_g:12:CSA_j.B
+I2[0] => fulladder:CSA_g:0:CSA_j.Cin
+I2[1] => fulladder:CSA_g:1:CSA_j.Cin
+I2[2] => fulladder:CSA_g:2:CSA_j.Cin
+I2[3] => fulladder:CSA_g:3:CSA_j.Cin
+I2[4] => fulladder:CSA_g:4:CSA_j.Cin
+I2[5] => fulladder:CSA_g:5:CSA_j.Cin
+I2[6] => fulladder:CSA_g:6:CSA_j.Cin
+I2[7] => fulladder:CSA_g:7:CSA_j.Cin
+I2[8] => fulladder:CSA_g:8:CSA_j.Cin
+I2[9] => fulladder:CSA_g:9:CSA_j.Cin
+I2[10] => fulladder:CSA_g:10:CSA_j.Cin
+I2[11] => fulladder:CSA_g:11:CSA_j.Cin
+I2[12] => fulladder:CSA_g:12:CSA_j.Cin
+S_outs[0] <= fulladder:CSA_g:0:CSA_j.S
+S_outs[1] <= fulladder:CSA_g:1:CSA_j.S
+S_outs[2] <= fulladder:CSA_g:2:CSA_j.S
+S_outs[3] <= fulladder:CSA_g:3:CSA_j.S
+S_outs[4] <= fulladder:CSA_g:4:CSA_j.S
+S_outs[5] <= fulladder:CSA_g:5:CSA_j.S
+S_outs[6] <= fulladder:CSA_g:6:CSA_j.S
+S_outs[7] <= fulladder:CSA_g:7:CSA_j.S
+S_outs[8] <= fulladder:CSA_g:8:CSA_j.S
+S_outs[9] <= fulladder:CSA_g:9:CSA_j.S
+S_outs[10] <= fulladder:CSA_g:10:CSA_j.S
+S_outs[11] <= fulladder:CSA_g:11:CSA_j.S
+S_outs[12] <= fulladder:CSA_g:12:CSA_j.S
+S_outs[13] <= <GND>
+C_outs[0] <= <GND>
+C_outs[1] <= fulladder:CSA_g:0:CSA_j.Cout
+C_outs[2] <= fulladder:CSA_g:1:CSA_j.Cout
+C_outs[3] <= fulladder:CSA_g:2:CSA_j.Cout
+C_outs[4] <= fulladder:CSA_g:3:CSA_j.Cout
+C_outs[5] <= fulladder:CSA_g:4:CSA_j.Cout
+C_outs[6] <= fulladder:CSA_g:5:CSA_j.Cout
+C_outs[7] <= fulladder:CSA_g:6:CSA_j.Cout
+C_outs[8] <= fulladder:CSA_g:7:CSA_j.Cout
+C_outs[9] <= fulladder:CSA_g:8:CSA_j.Cout
+C_outs[10] <= fulladder:CSA_g:9:CSA_j.Cout
+C_outs[11] <= fulladder:CSA_g:10:CSA_j.Cout
+C_outs[12] <= fulladder:CSA_g:11:CSA_j.Cout
+C_outs[13] <= fulladder:CSA_g:12:CSA_j.Cout
+
+
+|main|CSA:CSA5|fulladder:\CSA_g:0:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA5|fulladder:\CSA_g:1:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA5|fulladder:\CSA_g:2:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA5|fulladder:\CSA_g:3:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA5|fulladder:\CSA_g:4:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA5|fulladder:\CSA_g:5:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA5|fulladder:\CSA_g:6:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA5|fulladder:\CSA_g:7:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA5|fulladder:\CSA_g:8:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA5|fulladder:\CSA_g:9:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA5|fulladder:\CSA_g:10:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA5|fulladder:\CSA_g:11:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA5|fulladder:\CSA_g:12:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA6
+I0[0] => fulladder:CSA_g:0:CSA_j.A
+I0[1] => fulladder:CSA_g:1:CSA_j.A
+I0[2] => fulladder:CSA_g:2:CSA_j.A
+I0[3] => fulladder:CSA_g:3:CSA_j.A
+I0[4] => fulladder:CSA_g:4:CSA_j.A
+I0[5] => fulladder:CSA_g:5:CSA_j.A
+I0[6] => fulladder:CSA_g:6:CSA_j.A
+I0[7] => fulladder:CSA_g:7:CSA_j.A
+I0[8] => fulladder:CSA_g:8:CSA_j.A
+I0[9] => fulladder:CSA_g:9:CSA_j.A
+I0[10] => fulladder:CSA_g:10:CSA_j.A
+I0[11] => fulladder:CSA_g:11:CSA_j.A
+I0[12] => fulladder:CSA_g:12:CSA_j.A
+I0[13] => fulladder:CSA_g:13:CSA_j.A
+I1[0] => fulladder:CSA_g:0:CSA_j.B
+I1[1] => fulladder:CSA_g:1:CSA_j.B
+I1[2] => fulladder:CSA_g:2:CSA_j.B
+I1[3] => fulladder:CSA_g:3:CSA_j.B
+I1[4] => fulladder:CSA_g:4:CSA_j.B
+I1[5] => fulladder:CSA_g:5:CSA_j.B
+I1[6] => fulladder:CSA_g:6:CSA_j.B
+I1[7] => fulladder:CSA_g:7:CSA_j.B
+I1[8] => fulladder:CSA_g:8:CSA_j.B
+I1[9] => fulladder:CSA_g:9:CSA_j.B
+I1[10] => fulladder:CSA_g:10:CSA_j.B
+I1[11] => fulladder:CSA_g:11:CSA_j.B
+I1[12] => fulladder:CSA_g:12:CSA_j.B
+I1[13] => fulladder:CSA_g:13:CSA_j.B
+I2[0] => fulladder:CSA_g:0:CSA_j.Cin
+I2[1] => fulladder:CSA_g:1:CSA_j.Cin
+I2[2] => fulladder:CSA_g:2:CSA_j.Cin
+I2[3] => fulladder:CSA_g:3:CSA_j.Cin
+I2[4] => fulladder:CSA_g:4:CSA_j.Cin
+I2[5] => fulladder:CSA_g:5:CSA_j.Cin
+I2[6] => fulladder:CSA_g:6:CSA_j.Cin
+I2[7] => fulladder:CSA_g:7:CSA_j.Cin
+I2[8] => fulladder:CSA_g:8:CSA_j.Cin
+I2[9] => fulladder:CSA_g:9:CSA_j.Cin
+I2[10] => fulladder:CSA_g:10:CSA_j.Cin
+I2[11] => fulladder:CSA_g:11:CSA_j.Cin
+I2[12] => fulladder:CSA_g:12:CSA_j.Cin
+I2[13] => fulladder:CSA_g:13:CSA_j.Cin
+S_outs[0] <= fulladder:CSA_g:0:CSA_j.S
+S_outs[1] <= fulladder:CSA_g:1:CSA_j.S
+S_outs[2] <= fulladder:CSA_g:2:CSA_j.S
+S_outs[3] <= fulladder:CSA_g:3:CSA_j.S
+S_outs[4] <= fulladder:CSA_g:4:CSA_j.S
+S_outs[5] <= fulladder:CSA_g:5:CSA_j.S
+S_outs[6] <= fulladder:CSA_g:6:CSA_j.S
+S_outs[7] <= fulladder:CSA_g:7:CSA_j.S
+S_outs[8] <= fulladder:CSA_g:8:CSA_j.S
+S_outs[9] <= fulladder:CSA_g:9:CSA_j.S
+S_outs[10] <= fulladder:CSA_g:10:CSA_j.S
+S_outs[11] <= fulladder:CSA_g:11:CSA_j.S
+S_outs[12] <= fulladder:CSA_g:12:CSA_j.S
+S_outs[13] <= fulladder:CSA_g:13:CSA_j.S
+S_outs[14] <= <GND>
+C_outs[0] <= <GND>
+C_outs[1] <= fulladder:CSA_g:0:CSA_j.Cout
+C_outs[2] <= fulladder:CSA_g:1:CSA_j.Cout
+C_outs[3] <= fulladder:CSA_g:2:CSA_j.Cout
+C_outs[4] <= fulladder:CSA_g:3:CSA_j.Cout
+C_outs[5] <= fulladder:CSA_g:4:CSA_j.Cout
+C_outs[6] <= fulladder:CSA_g:5:CSA_j.Cout
+C_outs[7] <= fulladder:CSA_g:6:CSA_j.Cout
+C_outs[8] <= fulladder:CSA_g:7:CSA_j.Cout
+C_outs[9] <= fulladder:CSA_g:8:CSA_j.Cout
+C_outs[10] <= fulladder:CSA_g:9:CSA_j.Cout
+C_outs[11] <= fulladder:CSA_g:10:CSA_j.Cout
+C_outs[12] <= fulladder:CSA_g:11:CSA_j.Cout
+C_outs[13] <= fulladder:CSA_g:12:CSA_j.Cout
+C_outs[14] <= fulladder:CSA_g:13:CSA_j.Cout
+
+
+|main|CSA:CSA6|fulladder:\CSA_g:0:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA6|fulladder:\CSA_g:1:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA6|fulladder:\CSA_g:2:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA6|fulladder:\CSA_g:3:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA6|fulladder:\CSA_g:4:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA6|fulladder:\CSA_g:5:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA6|fulladder:\CSA_g:6:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA6|fulladder:\CSA_g:7:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA6|fulladder:\CSA_g:8:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA6|fulladder:\CSA_g:9:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA6|fulladder:\CSA_g:10:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA6|fulladder:\CSA_g:11:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA6|fulladder:\CSA_g:12:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CSA:CSA6|fulladder:\CSA_g:13:CSA_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CPA:CPA1
+I0[0] => fulladder:CPA_g:0:cpa_j.A
+I0[1] => fulladder:CPA_g:1:cpa_j.A
+I0[2] => fulladder:CPA_g:2:cpa_j.A
+I0[3] => fulladder:CPA_g:3:cpa_j.A
+I0[4] => fulladder:CPA_g:4:cpa_j.A
+I0[5] => fulladder:CPA_g:5:cpa_j.A
+I0[6] => fulladder:CPA_g:6:cpa_j.A
+I0[7] => fulladder:CPA_g:7:cpa_j.A
+I0[8] => fulladder:CPA_g:8:cpa_j.A
+I0[9] => fulladder:CPA_g:9:cpa_j.A
+I0[10] => fulladder:CPA_g:10:cpa_j.A
+I0[11] => fulladder:CPA_g:11:cpa_j.A
+I0[12] => fulladder:CPA_g:12:cpa_j.A
+I0[13] => fulladder:CPA_g:13:cpa_j.A
+I0[14] => fulladder:CPA_g:14:cpa_j.A
+I1[0] => fulladder:CPA_g:0:cpa_j.B
+I1[1] => fulladder:CPA_g:1:cpa_j.B
+I1[2] => fulladder:CPA_g:2:cpa_j.B
+I1[3] => fulladder:CPA_g:3:cpa_j.B
+I1[4] => fulladder:CPA_g:4:cpa_j.B
+I1[5] => fulladder:CPA_g:5:cpa_j.B
+I1[6] => fulladder:CPA_g:6:cpa_j.B
+I1[7] => fulladder:CPA_g:7:cpa_j.B
+I1[8] => fulladder:CPA_g:8:cpa_j.B
+I1[9] => fulladder:CPA_g:9:cpa_j.B
+I1[10] => fulladder:CPA_g:10:cpa_j.B
+I1[11] => fulladder:CPA_g:11:cpa_j.B
+I1[12] => fulladder:CPA_g:12:cpa_j.B
+I1[13] => fulladder:CPA_g:13:cpa_j.B
+I1[14] => fulladder:CPA_g:14:cpa_j.B
+Saida[0] <= fulladder:CPA_g:0:cpa_j.S
+Saida[1] <= fulladder:CPA_g:1:cpa_j.S
+Saida[2] <= fulladder:CPA_g:2:cpa_j.S
+Saida[3] <= fulladder:CPA_g:3:cpa_j.S
+Saida[4] <= fulladder:CPA_g:4:cpa_j.S
+Saida[5] <= fulladder:CPA_g:5:cpa_j.S
+Saida[6] <= fulladder:CPA_g:6:cpa_j.S
+Saida[7] <= fulladder:CPA_g:7:cpa_j.S
+Saida[8] <= fulladder:CPA_g:8:cpa_j.S
+Saida[9] <= fulladder:CPA_g:9:cpa_j.S
+Saida[10] <= fulladder:CPA_g:10:cpa_j.S
+Saida[11] <= fulladder:CPA_g:11:cpa_j.S
+Saida[12] <= fulladder:CPA_g:12:cpa_j.S
+Saida[13] <= fulladder:CPA_g:13:cpa_j.S
+Saida[14] <= fulladder:CPA_g:14:cpa_j.S
+Saida[15] <= fulladder:CPA_g:14:cpa_j.Cout
+
+
+|main|CPA:CPA1|fulladder:\CPA_g:0:cpa_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CPA:CPA1|fulladder:\CPA_g:1:cpa_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CPA:CPA1|fulladder:\CPA_g:2:cpa_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CPA:CPA1|fulladder:\CPA_g:3:cpa_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CPA:CPA1|fulladder:\CPA_g:4:cpa_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CPA:CPA1|fulladder:\CPA_g:5:cpa_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CPA:CPA1|fulladder:\CPA_g:6:cpa_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CPA:CPA1|fulladder:\CPA_g:7:cpa_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CPA:CPA1|fulladder:\CPA_g:8:cpa_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CPA:CPA1|fulladder:\CPA_g:9:cpa_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CPA:CPA1|fulladder:\CPA_g:10:cpa_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CPA:CPA1|fulladder:\CPA_g:11:cpa_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CPA:CPA1|fulladder:\CPA_g:12:cpa_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CPA:CPA1|fulladder:\CPA_g:13:cpa_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|CPA:CPA1|fulladder:\CPA_g:14:cpa_j
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

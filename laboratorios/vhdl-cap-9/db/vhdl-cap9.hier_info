@@ -1,0 +1,6 @@
+|controle
+S[0] << <VCC>
+S[1] << <GND>
+CLK => ~NO_FANOUT~
+
+
